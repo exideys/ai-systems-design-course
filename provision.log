@@ -1,0 +1,44 @@
+﻿**********************
+Начало записи сценария Windows PowerShell
+Время начала: 20260922084913
+Имя пользователя: DESKTOP-BJ7QUQM\lstar
+Запуск от имени пользователя: DESKTOP-BJ7QUQM\lstar
+Имя конфигурации: 
+Компьютер: DESKTOP-BJ7QUQM (Microsoft Windows NT 10.0.26200.0)
+Ведущее приложение: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+ИД процесса: 18244
+PSVersion: 5.1.26100.9444
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.9444
+BuildVersion: 10.0.26100.9444
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Транскрибирование запущено, выходной файл .\provision.log
+PS F:\sobol\ai-systems-design-course> winget configure --file .\fixtures\windows\lab01-workstation-windows11.dsc.yaml --accept-configuration-agreements 2>&1 | Out-String | Write-Output
+╨д╨░╨╣╨╗ ╨╜╨╡ ╤Б╤Г╤Й╨╡╤Б╤В╨▓╤Г╨╡╤В: .\fixtures\windows\lab01-workstation-windows11.dsc.yaml
+PS F:\sobol\ai-systems-design-course> winget configure --file .\fixtures\windows\lab01-workstation-windows11.dsc.yaml --accept-configuration-agreements 2>&1 | Out-String | Write-Output
+╨д╨░╨╣╨╗ ╨╜╨╡ ╤Б╤Г╤Й╨╡╤Б╤В╨▓╤Г╨╡╤В: .\fixtures\windows\lab01-workstation-windows11.dsc.yaml
+PS F:\sobol\ai-systems-design-course> winget list --id Git.Git --exact --source winget 2>&1 | Out-String | Write-Output
+╨Ш╨╝╤П ╨Ш╨Ф      ╨Т╨╡╤А╤Б╨╕╤П ╨Ф╨╛╤Б╤В╤Г╨┐╨╜╨╛
+---------------------------
+Git Git.Git 2.54.0 2.55.0.3
+PS F:\sobol\ai-systems-design-course> winget list --id GitHub.cli --exact --source winget 2>&1 | Out-String | Write-Output
+╨Ш╨╝╤П        ╨Ш╨Ф         ╨Т╨╡╤А╤Б╨╕╤П
+-----------------------------
+GitHub CLI GitHub.cli 2.101.0
+PS F:\sobol\ai-systems-design-course> winget list --id astral-sh.uv --exact --source winget 2>&1 | Out-String | Write-Output
+╨Ш╨╝╤П ╨Ш╨Ф           ╨Т╨╡╤А╤Б╨╕╤П  ╨Ф╨╛╤Б╤В╤Г╨┐╨╜╨╛
+---------------------------------
+uv  astral-sh.uv 0.12.15 0.12.17
+PS F:\sobol\ai-systems-design-course> winget list --id Obsidian.Obsidian --exact --source winget 2>&1 | Out-String | Write-Output
+╨Ш╨╝╤П      ╨Ш╨Ф                ╨Т╨╡╤А╤Б╨╕╤П
+---------------------------------
+Obsidian Obsidian.Obsidian 1.13.7
+PS F:\sobol\ai-systems-design-course> Stop-Transcript
+**********************
+Конец записи протокола Windows PowerShell
+Время окончания: 20260922084916
+**********************

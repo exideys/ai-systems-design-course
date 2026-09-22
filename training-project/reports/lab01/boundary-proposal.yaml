@@ -1,0 +1,21 @@
+# Candidate for Laboratory 01: normally AI-generated; student-authored only on the documented no-agent fallback.
+# Replace the instructional values, but preserve every field and keep status proposed.
+schema_version: "1.0"
+proposal_id: lab01-learning-knowledge-boundary
+status: proposed
+personal_domain: Software engineering study notes for backend application design.
+intended_learning_outcome: A student can trace a technical concept to a versioned source, explain the accepted system boundary, and justify a decision using preserved evidence.
+non_goals:
+  - The system does not ingest private notes, credentials, or high-consequence medical, legal, financial, or safety-critical decision data.
+  - Laboratory 01 does not build concept records, a graph index, a vector index, or a production architecture.
+governance:
+  ai_role: Propose a bounded system description and expose uncertainty without accepting changes.
+  deterministic_role: Validate the candidate, bind the decision to its digest, and apply only approved content.
+  human_role: Review meaning and explicitly approve or reject the proposal before application.
+usefulness_condition: The workflow is useful when the source record, proposal, review, decision, and applied boundary let the student answer review questions with traceable evidence.
+material_risk: A fluent but poorly grounded proposal could pass schema validation and lead later work to rely on an incorrect boundary.
+non_ai_baseline: A manual Markdown checklist can preserve the source path, commit hash, review answers, and a student-written boundary summary.
+uncertainty: Later modules may refine schemas, relation vocabulary, and recovery expectations; this proposal establishes only the Lab01 boundary.
+required_evidence:
+  - Preserve public Lab01 test results, a green environment report, valid proposal output, and refusal of application without a decision.
+  - Record nine semantic-review answers grounded in the supplied brief and requirements before any student decision.
