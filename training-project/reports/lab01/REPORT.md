@@ -5,7 +5,7 @@
 
 - URL форку: https://github.com/exideys/ai-systems-design-course
 - Назва гілки: `lab01/exideys`
-- Повний хеш коміту: Додається окремо в файл при завантаженні в Microsoft Teams.
+- Повний хеш коміту: 02ae1a448f66b45ff5de64caf6885b3c5277547d.
 
 ## Середовище
 
