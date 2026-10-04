@@ -8,7 +8,7 @@
 
 - URL форку: https://github.com/exideys/ai-systems-design-course
 - Назва особистої гілки: `lab02/exideys`
-- Повний хеш коміту зі свідченнями:
+- Повний хеш коміту зі свідченнями: `a0d0fa8bd91a6a9daa505324a8c3de6fb5d3acea`
 - Автор на знімках екрана: Taranenko Serhii, група KH-1223B; акаунт Windows — lstar.
 
 ## Початковий стан і реєстрація джерела
