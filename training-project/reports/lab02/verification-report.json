@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "lab_id": "lab02",
   "status": "passed",
-  "generated_at": "2026-10-04T08:57:11.521509+00:00",
+  "generated_at": "2026-10-04T09:22:04.878939+00:00",
   "course_commit": "d537707c258858562f811003a50cb6aca8f0fcd1",
   "live_runs": [
     "live-primary-01",
@@ -20,7 +20,7 @@
     "report/live-comparison.json": "0855f4037a24e11f009d3f6932b5937103ba3541088905323c900feb0671e0f5",
     "report/public-tests-student.log": "09f254d2ede64b4965f09a48926405a97f8e5f3fb90c2f84fe7dd0dee10a5267",
     "report/public-tests.log": "331ee6fbe06bc45aeb74dea26db5b32f90672e2ccf3d911e7915b4a802d4d935",
-    "report/REPORT.md": "f8e2323df392472ef96f2919a871d378f7bb5453f6f0b02fd32b4485852a751e",
+    "report/REPORT.md": "1daef3dfbcf9907b8dcdea31a40d48655139026fe895691978af629d7668a520",
     "report/runs/live-primary-01/model-request.json": "950c97a1147c439e4d0ce0ed7f2b29352add66b52feda2f7281aa74c3d47c27b",
     "report/runs/live-primary-01/raw-response.txt": "fe6b7ae4467d70cb969aea67aaf3bdbc78dc15a71e82e6b89c67c82127ffd393",
     "report/runs/live-primary-01/run-metadata.json": "26c1ef663649c08bbbe39dac288643c20a4e0b35cd57dbae3ea28dc7b0e6d542",
@@ -36,6 +36,7 @@
     "report/screenshots/05-controlled-apply.png": "7d247109e61055c811259e2f3985df336d11e0840acc273bbef20ba0f6df8533",
     "report/screenshots/06-final-result.png": "21453a955e43bf7230cb8a9ef6d651756b9e3c190ac95183f03ee7902d9f6064",
     "report/semantic-review.yaml": "3c122d65f1aa7a51e509b337190cb72524e489d0d980e0b59d48bf9a0de75ff6",
+    "report/submission/REPORT.md": "5ed7aac0fc374d3ff5e072999ddca1e8ecd5f511294e3a7cdde4d79fb7d1b99e",
     "vault/sources/module-01-ai-engineering-foundations.md": "4af490b7c913df387c592733e1af5ca86cbd82389f298cdd5c19b90d324e1a49",
     "vault/proposals/lab02-structured-output-live-primary-01.md": "3915f9a79a78a65a9b1ab3f853681db162cdf5bf0d885131b8e40e754955ed61",
     "vault/proposals/lab02-structured-output-live-primary-02.md": "2ece76e9e959814c088631f61824f38bae1420c773788e27e72be77a0b610a50",
@@ -87,7 +88,7 @@
     {
       "check_id": "artifact-map",
       "status": "passed",
-      "message": "26 artifacts mapped by path and digest"
+      "message": "27 artifacts mapped by path and digest"
     },
     {
       "check_id": "vault-read-only",
