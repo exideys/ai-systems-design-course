@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "lab_id": "lab02",
   "status": "passed",
-  "generated_at": "2026-10-04T09:22:04.878939+00:00",
+  "generated_at": "2026-10-04T09:30:25.115839+00:00",
   "course_commit": "d537707c258858562f811003a50cb6aca8f0fcd1",
   "live_runs": [
     "live-primary-01",
@@ -32,7 +32,7 @@
     "report/screenshots/01-offline-gates.png": "eb28f5cd68b82482118559409205b4fb815102ca209fbd7969682e175006adfa",
     "report/screenshots/02-refusal-unchanged.png": "27c416c0348be79d8c3960fd8becdcbdeea47920ae2dd1c239ebd583f5fcc58a",
     "report/screenshots/03-live-comparison.png": "63164ef03a93830a812b3debe4a459888488b7add4c007a1b4ed4bcde29a8767",
-    "report/screenshots/04-review-decision.png": "ef657a90f4413712bd4287b9dceaf1c3bdc82159e0360209f4bc5de8ff995b50",
+    "report/screenshots/04-review-decision.png": "cba32b702d0a97ce235fc472c6279002ae82555a303accfd28064057446ad290",
     "report/screenshots/05-controlled-apply.png": "7d247109e61055c811259e2f3985df336d11e0840acc273bbef20ba0f6df8533",
     "report/screenshots/06-final-result.png": "21453a955e43bf7230cb8a9ef6d651756b9e3c190ac95183f03ee7902d9f6064",
     "report/semantic-review.yaml": "3c122d65f1aa7a51e509b337190cb72524e489d0d980e0b59d48bf9a0de75ff6",
