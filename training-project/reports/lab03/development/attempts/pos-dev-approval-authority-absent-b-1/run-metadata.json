@@ -1,0 +1,9 @@
+{
+  "position_id": "pos-dev-approval-authority-absent-b-1",
+  "adapter": "openrouter",
+  "model_id": "openrouter/free",
+  "started_at": "2026-10-16T21:39:11.375953+00:00",
+  "finished_at": "2026-10-16T21:39:15.083991+00:00",
+  "recorded_by": "exideys",
+  "observed_model": "nvidia/nemotron-3-super-120b-a12b:free"
+}

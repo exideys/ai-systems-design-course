@@ -1,0 +1,11 @@
+schema_version: '1.0'
+blind_id: blind-005
+category: U
+source_pointer: A metric is a defined measurement whose values can be compared against the criterion to
+  judge whether that property holds.
+rationale: Основний зв’язок критерію, метрики та порівняння збережено. Проте відповідь додає high accuracy,
+  low latency, error rate, response time і твердження про обчислення метрики з виходів системи. Цих конкретних
+  відомостей надане джерело не містить. За правилом підкріплення лише джерелом непідкріплені доповнення
+  визначають категорію U.
+assessed_by: exideys
+recorded_at: '2026-10-16T22:16:49.669244+00:00'

@@ -1,0 +1,28 @@
+schema_version: '1.0'
+packet_id: calibration-a
+labels:
+- output_id: cal-a-1
+  category: S
+  rationale: 'Завдання вимагає визначити, на який матеріал указує source baseline.
+    Джерело: ''A source baseline identifies the material against which a proposal
+    is reviewed.'' Відповідь зберігає зв’язок матеріалу з розглядом пропозиції, не
+    додає тверджень; правило S.'
+- output_id: cal-a-2
+  category: I
+  rationale: 'Для завдання source-baseline-definition джерело пов’язує матеріал із
+    розглядом пропозиції: ''against which a proposal is reviewed''. Відповідь ''identifies
+    material'' підкріплена, але пропускає цей необхідний зв’язок. Очікувана повнота
+    не досягнута; правило I.'
+- output_id: cal-a-3
+  category: U
+  rationale: У source-baseline-definition джерело описує лише матеріал для розгляду
+    пропозиції. Твердження 'automatically approves later changes' не має підкріплення.
+    Очікувана поведінка не містить автоматичного затвердження; додана вигадка визначає
+    U для всієї відповіді.
+- output_id: cal-a-4
+  category: Q
+  rationale: Завдання retention-duration запитує строк зберігання. Джерело 'Review
+    records are stored in the knowledge system' не задає строку. Відповідь прямо вказує
+    на відсутню інформацію, відповідає очікуваній невизначеності та правилу Q.
+student: exideys
+recorded_at: '2026-10-16T21:26:21.137299+00:00'

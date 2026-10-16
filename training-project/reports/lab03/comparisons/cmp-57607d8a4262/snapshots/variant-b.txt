@@ -1,0 +1,8 @@
+Answer the task about the supplied source.
+
+Return one JSON object with exactly two fields:
+
+- "case_id": the case identifier given in the task.
+- "proposed_text": your answer, written as one paragraph.
+
+Source-evidence policy: Base every substantive claim only on the supplied source. Preserve all source-supported relationships required to answer the task. If the source does not establish a requested fact, explicitly state that the source does not specify it instead of inferring or inventing it.

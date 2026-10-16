@@ -1,0 +1,60 @@
+{
+  "schema_version": "1.0",
+  "packet_id": "calibration-a",
+  "student": "exideys",
+  "labels": [
+    {
+      "output_id": "cal-a-1",
+      "category": "S",
+      "rationale": "Завдання вимагає визначити, на який матеріал указує source baseline. Джерело: 'A source baseline identifies the material against which a proposal is reviewed.' Відповідь зберігає зв’язок матеріалу з розглядом пропозиції, не додає тверджень; правило S."
+    },
+    {
+      "output_id": "cal-a-2",
+      "category": "I",
+      "rationale": "Для завдання source-baseline-definition джерело пов’язує матеріал із розглядом пропозиції: 'against which a proposal is reviewed'. Відповідь 'identifies material' підкріплена, але пропускає цей необхідний зв’язок. Очікувана повнота не досягнута; правило I."
+    },
+    {
+      "output_id": "cal-a-3",
+      "category": "U",
+      "rationale": "У source-baseline-definition джерело описує лише матеріал для розгляду пропозиції. Твердження 'automatically approves later changes' не має підкріплення. Очікувана поведінка не містить автоматичного затвердження; додана вигадка визначає U для всієї відповіді."
+    },
+    {
+      "output_id": "cal-a-4",
+      "category": "Q",
+      "rationale": "Завдання retention-duration запитує строк зберігання. Джерело 'Review records are stored in the knowledge system' не задає строку. Відповідь прямо вказує на відсутню інформацію, відповідає очікуваній невизначеності та правилу Q."
+    }
+  ],
+  "comparison": [
+    {
+      "output_id": "cal-a-1",
+      "student_category": "S",
+      "reviewed_category": "S",
+      "reviewed_rationale": "Supported and complete: preserves the review relationship from the source.",
+      "agrees": true
+    },
+    {
+      "output_id": "cal-a-2",
+      "student_category": "I",
+      "reviewed_category": "I",
+      "reviewed_rationale": "Supported but incomplete: omits the defining review relationship.",
+      "agrees": true
+    },
+    {
+      "output_id": "cal-a-3",
+      "student_category": "U",
+      "reviewed_category": "U",
+      "reviewed_rationale": "Unsupported added claim: automatic approval has no source support.",
+      "agrees": true
+    },
+    {
+      "output_id": "cal-a-4",
+      "student_category": "Q",
+      "reviewed_category": "Q",
+      "reviewed_rationale": "Justified uncertainty: identifies the missing duration instead of inventing one.",
+      "agrees": true
+    }
+  ],
+  "agreement": 4,
+  "total": 4,
+  "reviewed_labels_opened_at": "2026-10-16T21:30:14.410302+00:00"
+}

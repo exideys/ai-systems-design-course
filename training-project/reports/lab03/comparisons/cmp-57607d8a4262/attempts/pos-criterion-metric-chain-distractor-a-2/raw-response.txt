@@ -1,0 +1,4 @@
+{
+  "case_id": "criterion-metric-chain-distractor",
+  "proposed_text": "A criterion specifies the quality property that a system must satisfy, such as requiring high accuracy or low latency, while a metric provides a concrete, measurable quantity—like error rate or response time—that can be computed from system outputs; by comparing the metric’s value against the criterion’s threshold or requirement, evaluators can determine whether the desired property holds, thus linking the abstract quality goal to an empirical assessment."
+}

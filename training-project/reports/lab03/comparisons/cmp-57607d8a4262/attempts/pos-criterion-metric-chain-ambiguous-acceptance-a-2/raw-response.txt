@@ -1,0 +1,4 @@
+{
+  "case_id": "criterion-metric-chain-ambiguous-acceptance",
+  "proposed_text": "The acceptance condition refers to the checked value (the measurement) recorded for the run, but because the note lists two checked values without specifying which one the declared bound applies to, the condition is ambiguous regarding which measurement it concerns."
+}

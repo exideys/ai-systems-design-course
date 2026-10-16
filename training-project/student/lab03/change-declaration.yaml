@@ -1,0 +1,10 @@
+changed_property: 'source-evidence policy: implicit in A; explicit source-only grounding
+  with bounded uncertainty in B'
+mechanism: 'A: лише ''Answer the task about the supplied source.'' B: явно встановлено
+  політику підкріплення кожного твердження джерелом зі збереженням потрібних зв’язків
+  і повідомленням про відсутній факт. Очікується менше вигаданих тверджень без втрати
+  повноти. Змінено лише політику використання джерельних свідчень; завдання і JSON-контракт
+  збережено.'
+declared_factors:
+- 'source-evidence policy: implicit in A; explicit source-only grounding with bounded
+  uncertainty in B'

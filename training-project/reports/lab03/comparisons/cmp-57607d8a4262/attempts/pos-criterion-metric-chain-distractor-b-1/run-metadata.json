@@ -1,0 +1,9 @@
+{
+  "position_id": "pos-criterion-metric-chain-distractor-b-1",
+  "adapter": "openrouter",
+  "model_id": "openrouter/free",
+  "started_at": "2026-10-16T21:54:44.633574+00:00",
+  "finished_at": "2026-10-16T21:54:49.490522+00:00",
+  "recorded_by": "exideys",
+  "observed_model": "cohere/north-mini-code:free"
+}

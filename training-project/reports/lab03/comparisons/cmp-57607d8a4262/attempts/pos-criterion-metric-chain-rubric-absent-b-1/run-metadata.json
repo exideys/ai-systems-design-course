@@ -1,0 +1,9 @@
+{
+  "position_id": "pos-criterion-metric-chain-rubric-absent-b-1",
+  "adapter": "openrouter",
+  "model_id": "openrouter/free",
+  "started_at": "2026-10-16T21:55:04.391191+00:00",
+  "finished_at": "2026-10-16T21:55:07.649987+00:00",
+  "recorded_by": "exideys",
+  "observed_model": "liquid/lfm-2.5-2.6b:free"
+}

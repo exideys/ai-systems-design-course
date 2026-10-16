@@ -1,0 +1,10 @@
+schema_version: '1.0'
+blind_id: blind-001
+category: S
+source_pointer: A metric is a defined measurement whose values can be compared against the criterion to
+  judge whether that property holds.
+rationale: Відповідь зберігає властивість, задану критерієм, її вимірювання метрикою та порівняння значень
+  метрики з критерієм. Це відповідає джерелу й очікуваній поведінці; необхідний зв’язок викладено повністю,
+  тому категорія S.
+assessed_by: exideys
+recorded_at: '2026-10-16T22:09:55.765489+00:00'

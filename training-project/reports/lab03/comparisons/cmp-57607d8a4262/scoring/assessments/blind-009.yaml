@@ -1,0 +1,10 @@
+schema_version: '1.0'
+blind_id: blind-009
+category: Q
+source_pointer: The note records two checked values for the same run and does not say which one the bound
+  applies to.
+rationale: Джерело описує два перевірені значення, але не визначає, до якого застосовується межа. Відповідь
+  зберігає цю невизначеність і не вибирає одне зі значень без підстав. Це відповідає очікуваній поведінці
+  та категорії Q.
+assessed_by: exideys
+recorded_at: '2026-10-16T22:23:14.962194+00:00'

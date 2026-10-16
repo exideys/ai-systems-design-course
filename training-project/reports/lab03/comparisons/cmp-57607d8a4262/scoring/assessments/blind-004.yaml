@@ -1,0 +1,9 @@
+schema_version: '1.0'
+blind_id: blind-004
+category: U
+source_pointer: A criterion states the quality property the system must satisfy.
+rationale: Відповідь правильно зберігає зв’язок критерію, метрики та порівняння значень, але додає приклади
+  властивостей performance та reliability, яких надане джерело не визначає. За правилом підкріплення кожного
+  змістовного твердження лише джерелом ці доповнення непідкріплені; категорія U.
+assessed_by: exideys
+recorded_at: '2026-10-16T22:16:17.557591+00:00'

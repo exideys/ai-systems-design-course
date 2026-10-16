@@ -1,0 +1,39 @@
+schema_version: '1.0'
+comparison_id: cmp-57607d8a4262
+outcome: reject-both
+rationale: 'A: 8 спроб, 8 відповідей, 5 структурно чинних, 5 придатних до оцінювання, 4 прийнятні. B:
+  відповідно 8, 8, 6, 6, 5. Кожна конфігурація має U=1, що порушує заморожену блокувальну умову U=0. Обидві
+  конфігурації відхиляються. Також не виконано вимогу восьми структурно чинних і придатних до оцінювання
+  відповідей для кожної конфігурації.'
+limitations:
+- small designed set
+- one assessor
+- provider-resolved models vary
+- cost and usage unknown
+blocking_failures: Будь-яке U у відкладених відповідях блокує відповідну конфігурацію, незалежно від інших
+  підрахунків.
+decision_rule:
+  recommend-b: B задовольняє всі умови; A неприйнятний або B має строго більше S+Q; немає нерозв’язаної
+    релевантної невизначеності.
+  retain-a: A задовольняє всі умови, а B не обґрунтовує зміни за tradeoff_rule; немає нерозв’язаної релевантної
+    невизначеності.
+  reject-both: В обох конфігурацій є U, що порушує блокувальну умову; X або дефект свідчень спочатку потребує
+    seek-more-evidence.
+  seek-more-evidence: Є X, невідоме релевантне вимірювання, дефект джерела/рубрики або жодна інша гілка
+    не підтверджена.
+nested_counts:
+  a:
+    attempted: 8
+    returned: 8
+    structurally_valid: 5
+    assessable: 5
+    rubric_acceptable: 4
+  b:
+    attempted: 8
+    returned: 8
+    structurally_valid: 6
+    assessable: 6
+    rubric_acceptable: 5
+protocol_freeze_id: cmp-57607d8a4262
+recorded_by: exideys
+recorded_at: '2026-10-16T22:26:31.823730+00:00'

@@ -1,0 +1,9 @@
+{
+  "position_id": "pos-criterion-metric-chain-distractor-b-2",
+  "adapter": "openrouter",
+  "model_id": "openrouter/free",
+  "started_at": "2026-10-16T21:54:50.426535+00:00",
+  "finished_at": "2026-10-16T21:54:58.109930+00:00",
+  "recorded_by": "exideys",
+  "observed_model": "nvidia/nemotron-3.5-content-safety:free"
+}

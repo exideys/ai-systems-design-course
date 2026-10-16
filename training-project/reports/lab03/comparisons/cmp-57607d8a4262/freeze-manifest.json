@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.0",
+  "freeze_id": "cmp-57607d8a4262",
+  "comparison_dir": "F:\\sobol\\ai-systems-design-course\\training-project\\reports\\lab03\\comparisons\\cmp-57607d8a4262",
+  "protocol": {
+    "engineering_decision": "Чи має B замінити A для оцінюваної операції пропозиції поняття?",
+    "hypothesis": "Явна політика джерельного підкріплення зменшить U і збереже повноту S та доречну невизначеність Q.",
+    "semantic_acceptance": "Окремо для кожної конфігурації: attempted=returned=structurally_valid=assessable=8; rubric_acceptable/assessable >= 7/8, де чисельник є кількістю S+Q; U=0. Покриття потрібних зв’язків перевіряється категорією S; пропуски I не приймаються. X означає нерозв’язану невизначеність і потребує seek-more-evidence.",
+    "blocking_failures": "Будь-яке U у відкладених відповідях блокує відповідну конфігурацію, незалежно від інших підрахунків.",
+    "operational_acceptance": "Для кожної з 8 повернених відповідей конфігурації затримка від started_at до finished_at не перевищує 120 секунд. Відсутня або від’ємна затримка є невідомою і не доводить операційної прийнятності. Дані невдалих спроб не трактуються як затримка відповіді. Вартість, токени та квота можуть залишатися unknown: вони не є критеріями цього обмеженого рішення і не дозволяють тверджень про перевагу за вартістю.",
+    "tradeoff_rule": "B може замінити A, якщо B семантично й операційно прийнятний, не має U, і A неприйнятний або B має строго більше S+Q. За рівних S+Q і прийнятного A зберігається A. Невідомі релевантні величини означають seek-more-evidence; невідомі витрати не порівнюються.",
+    "decision_rule": {
+      "recommend-b": "B задовольняє всі умови; A неприйнятний або B має строго більше S+Q; немає нерозв’язаної релевантної невизначеності.",
+      "retain-a": "A задовольняє всі умови, а B не обґрунтовує зміни за tradeoff_rule; немає нерозв’язаної релевантної невизначеності.",
+      "reject-both": "В обох конфігурацій є U, що порушує блокувальну умову; X або дефект свідчень спочатку потребує seek-more-evidence.",
+      "seek-more-evidence": "Є X, невідоме релевантне вимірювання, дефект джерела/рубрики або жодна інша гілка не підтверджена."
+    },
+    "attempt_budget": 16,
+    "timing_boundary": "started_at -> finished_at: від початку запланованої спроби до отримання відповіді; однакова межа для A та B",
+    "route": {
+      "adapter": "openrouter",
+      "model_id": "openrouter/free"
+    },
+    "order_rule": "course-generated balanced schedule",
+    "resume_window": "48h"
+  },
+  "variant_a_sha256": "69f0f1d6b4b3298353df79e53cff0fd654f15df43117a6e40f865cb655448d91",
+  "variant_b_sha256": "2087443ee48246058fbe5008df1e71d410b55e891f716a69fa114d980d699d78",
+  "change_declaration": {
+    "changed_property": "source-evidence policy: implicit in A; explicit source-only grounding with bounded uncertainty in B",
+    "mechanism": "A: лише 'Answer the task about the supplied source.' B: явно встановлено політику підкріплення кожного твердження джерелом зі збереженням потрібних зв’язків і повідомленням про відсутній факт. Очікується менше вигаданих тверджень без втрати повноти. Змінено лише політику використання джерельних свідчень; завдання і JSON-контракт збережено.",
+    "declared_factors": [
+      "source-evidence policy: implicit in A; explicit source-only grounding with bounded uncertainty in B"
+    ]
+  },
+  "route": {
+    "adapter": "openrouter",
+    "model_id": "openrouter/free"
+  },
+  "resume_window": "48h",
+  "eligible_reserve_count_at_freeze": 3,
+  "bindings": {
+    "output_schema_sha256": "b656ec5caa60b098b6711283893cfe0a6b0f5391d43accd55f2c136b828ca0c7",
+    "case_family_contract_sha256": "5bad7f720a34f0e5a02127a71841eb9143feaefb05a85887c7701679503867ac",
+    "validator_module_sha256": "f2c763d45afdff72214990c078c75ba10f35d907a36194cab6a0ad81dc436360",
+    "validator_schema_version": "1.0",
+    "development_schedule_sha256": "42e9ec110b6b8d6fb19c4d19964a995ee56b4df5fc3c6f286f4a8088fc277016",
+    "change_declaration_sha256": "1de4c26665848ea781ca1d0c82b87a2176d6c50ef79ac9766deee78d66c22a96",
+    "exposure_ledger_sha256": "a34c1a5a459235652961ed5654cf0e7cf17c2382f8d99cb17434a828ddc14a60"
+  },
+  "frozen_at": "2026-10-16T21:42:49.914734+00:00",
+  "frozen_by": "exideys"
+}

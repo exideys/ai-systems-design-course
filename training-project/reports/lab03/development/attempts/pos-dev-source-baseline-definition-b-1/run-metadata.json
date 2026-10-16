@@ -1,0 +1,9 @@
+{
+  "position_id": "pos-dev-source-baseline-definition-b-1",
+  "adapter": "openrouter",
+  "model_id": "openrouter/free",
+  "started_at": "2026-10-16T21:39:07.878228+00:00",
+  "finished_at": "2026-10-16T21:39:10.499889+00:00",
+  "recorded_by": "exideys",
+  "observed_model": "nvidia/nemotron-3.5-super-vl:free"
+}
