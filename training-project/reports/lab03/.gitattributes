@@ -1,0 +1,2 @@
+# Preserve the exact evidence bytes bound by the frozen protocol.
+* -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
