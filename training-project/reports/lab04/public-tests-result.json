@@ -1,0 +1,6 @@
+{
+  "returncode": 0,
+  "command": "uv run python -m unittest discover -s tests/public -v",
+  "generated_at": "2026-10-30T13:33:44.170246+02:00",
+  "log": "public-tests-final.log"
+}

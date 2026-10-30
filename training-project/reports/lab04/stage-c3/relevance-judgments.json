@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.0",
+  "designated human evaluator": "Codex (AI-assisted draft for Taranenko Serhii / exideys; student review required before submission)",
+  "judged evaluation cases": [
+    {
+      "evaluation case": "Evaluation Case A",
+      "relevance judging basis": "A retrieval unit must explain which data identify the originating record, the originating record version, and the exact location of the supporting passage.",
+      "returned retrieval units judged": [
+        "F-B"
+      ],
+      "relevance judgments": [
+        {
+          "stable retrieval identifier": "F-B",
+          "relevance judgment": "not relevant",
+          "rationale": "F-B describes a proposal-run receipt identifying the source and version of the model that produced a concept proposal. It explicitly does not locate the evidence passage. It therefore does not explain the originating knowledge-record identifier, its version, and the exact location of the supporting passage required to trace an excerpt to its origin and revision in Evaluation Case A. Its own provenance metadata does not make its subject matter relevant."
+        }
+      ]
+    },
+    {
+      "evaluation case": "Evaluation Case B",
+      "relevance judging basis": "A retrieval unit must explain which data identify the originating record, the originating record version, and the exact location of the supporting passage.",
+      "returned retrieval units judged": [
+        "F-B"
+      ],
+      "relevance judgments": [
+        {
+          "stable retrieval identifier": "F-B",
+          "relevance judgment": "not relevant",
+          "rationale": "F-B shares the query terms source, version, concept, and proposal, but its source and version identify the model used for a proposal rather than the originating record and the location of supporting evidence. The text explicitly states that the receipt does not locate the evidence passage. It fails the declared requirement to explain all three elements: originating-record identifier, originating-record version, and exact supporting-passage location."
+        }
+      ]
+    }
+  ],
+  "observation boundary": "relevance judgments over returned retrieval units; no retrieval metric"
+}
