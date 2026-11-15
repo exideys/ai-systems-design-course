@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0",
+  "shared experiment protocol id": "SEP-05-1",
+  "configuration role": "experiment baseline",
+  "evaluation case id": "EC-05-2",
+  "outcome type": "refusal",
+  "rubric check": "Refusal check",
+  "human evaluator judgment": "pass",
+  "judgment rationale": "The structured refusal identifies insufficiency of the supplied source evidence and task instruction TI-05-1. Review-time input is 4 minutes, specified by the user for this role after seeing earlier evaluation results; it is an unmeasured parameter.",
+  "review minutes": 4.0,
+  "outcome sha256": "397e054701e14f61c5109e87b36da89604d22dfadd41a138c2c44df5f611f9e4",
+  "recorded by": "exideys (AI-assisted; user-specified unmeasured review-time parameters)",
+  "authority boundary": "The recorded judgment is not an authorization to change the canonical knowledge collection."
+}

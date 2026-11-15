@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0",
+  "shared experiment protocol id": "SEP-05-1",
+  "bounded configuration decision": "adopt the candidate configuration",
+  "decision rationale": "Under the revised user-specified review-time parameters of 4 minutes for baseline outputs and 4 minutes 35 seconds for candidate outputs, both roles satisfy the four evaluated conditions, including the 5-minute limit. Each role passed 3/3 rubric judgments without unsupported definitions or definitions on EC-05-3. Token usage remains not evaluated. Select the evidence-guarded candidate only within the declared development cases and this revised calculation. These parameters were changed after earlier results and were not measured; the conclusion is conditional on them. It does not establish actual human-review effort, general superiority, held-out performance, or authorization for canonical collection writes.",
+  "rubric pass rates": {
+    "experiment baseline": 1.0,
+    "candidate configuration": 1.0
+  },
+  "candidate configuration role outcome": "adoption permitted",
+  "experiment baseline role outcome": "retention permitted",
+  "scope": "The bounded configuration decision rests on the declared development evaluation cases and supplies no held-out evidence.",
+  "authority boundary": "The bounded configuration decision does not select a retrieval configuration and authorizes no write to the canonical knowledge collection.",
+  "recorded by": "Codex for exideys (AI-assisted; conditional on user-specified review-time parameters)"
+}

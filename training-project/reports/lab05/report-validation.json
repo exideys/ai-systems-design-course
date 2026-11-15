@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.0",
+  "lab_id": "lab05",
+  "status": "failed",
+  "checks": [
+    {
+      "check_id": "report-headings",
+      "status": "passed",
+      "message": "required report headings are present in order"
+    },
+    {
+      "check_id": "internal-vocabulary",
+      "status": "passed",
+      "message": "no internal course-development vocabulary is present"
+    },
+    {
+      "check_id": "report-identity",
+      "status": "passed",
+      "message": "fork URL and personal branch are recorded"
+    },
+    {
+      "check_id": "report-completion",
+      "status": "passed",
+      "message": "the completion state is recorded"
+    },
+    {
+      "check_id": "report-data-uri",
+      "status": "passed",
+      "message": "the source report embeds no data URIs"
+    },
+    {
+      "check_id": "report-screenshots",
+      "status": "failed",
+      "message": "Required checkpoint screenshot files are missing: 01-query-rewriting.png, 02-retrieval-unit-selection.png, 03-context-construction.png, 04-generation-outcomes.png, 05-configuration-decision.png"
+    },
+    {
+      "check_id": "stage-evidence",
+      "status": "passed",
+      "message": "all required workflow evidence, the rubric judgments, and the bounded configuration decision are present"
+    }
+  ]
+}

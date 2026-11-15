@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0",
+  "shared experiment protocol id": "SEP-05-1",
+  "configuration role": "candidate configuration",
+  "evaluation case id": "EC-05-2",
+  "outcome type": "refusal",
+  "rubric check": "Refusal check",
+  "human evaluator judgment": "pass",
+  "judgment rationale": "The structured refusal identifies insufficiency of the supplied source evidence for a provenance-link definition under TI-05-1. Review duration is an approximate 10-minute midpoint of the user-supplied 5-15-minute range, not a measured duration.",
+  "review minutes": 10.0,
+  "outcome sha256": "228c46d15b332d278538fa77dd0d3bd6dff9dfa885c5bc99ece265d2bc6a9169",
+  "recorded by": "exideys (AI-assisted; user-confirmed judgments; estimated review times)",
+  "authority boundary": "The recorded judgment is not an authorization to change the canonical knowledge collection."
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0",
+  "shared experiment protocol id": "SEP-05-1",
+  "configuration role": "candidate configuration",
+  "evaluation case id": "EC-05-2",
+  "outcome type": "refusal",
+  "rubric check": "Refusal check",
+  "human evaluator judgment": "pass",
+  "judgment rationale": "The structured refusal identifies insufficiency of the supplied source evidence for a provenance-link definition under TI-05-1. Review-time input is 4 minutes 35 seconds (275/60 minutes), specified by the user for recalculation after seeing condition 4 fail; this is an unmeasured parameter.",
+  "review minutes": 4.583333333333333,
+  "outcome sha256": "228c46d15b332d278538fa77dd0d3bd6dff9dfa885c5bc99ece265d2bc6a9169",
+  "recorded by": "exideys (AI-assisted; user-specified unmeasured review-time parameter)",
+  "authority boundary": "The recorded judgment is not an authorization to change the canonical knowledge collection."
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0",
+  "shared experiment protocol id": "SEP-05-1",
+  "configuration role": "experiment baseline",
+  "evaluation case id": "EC-05-1",
+  "outcome type": "candidate concept definition",
+  "rubric check": "Candidate concept definition check",
+  "human evaluator judgment": "pass",
+  "judgment rationale": "claim-1 reproduces sentence 1 of selected F-A; claim-2 reproduces sentence 2. Each claim citation repeats the claim's own id and identifies F-A. No source fact is added. Review duration is an approximate 10-minute midpoint of the user-supplied 5-15-minute range, not a measured duration.",
+  "review minutes": 10.0,
+  "outcome sha256": "1c81626744da18670eff23f735252dc1a6baeb84b3bd09108d739b8428884305",
+  "recorded by": "exideys (AI-assisted; user-confirmed judgments; estimated review times)",
+  "authority boundary": "The recorded judgment is not an authorization to change the canonical knowledge collection."
+}

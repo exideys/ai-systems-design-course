@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0",
+  "reason": "User requested baseline 4m and candidate 4m35s per output.",
+  "prior_revision": "history/review-time-4m35s-both-roles/evaluation-revision.json",
+  "prior_input_sha256": "9d10173f22ddc48133d61a23991b04b8f00ad15da9da2beb1cfc43b529c63e86",
+  "new_input_sha256": "b3611c76b79da926e2f3f349eed60419d577ee7c0c0750011753cb85d6df5d64",
+  "review_seconds_by_role": {
+    "experiment baseline": 240,
+    "candidate configuration": 275
+  },
+  "measurement_status": "user-specified parameters; not timed",
+  "generation_run_sha256": {
+    "generation/runs/candidate-configuration/ec-05-1/raw-outcome.json": "8b8e9bcd08414ed1fbcfeb0798ac619e563a1e0133ae8c675d6f2b65d2ea1529",
+    "generation/runs/candidate-configuration/ec-05-1/raw-response.txt": "79aa1002a66efd34cffda8f27d0235aaefed01642f3dd7b9b8feaecb9abdfaf0",
+    "generation/runs/candidate-configuration/ec-05-1/run-metadata.json": "cf982df62a3abed20b60f53f6e5449849b7c184404d7e501463650b211c85255",
+    "generation/runs/candidate-configuration/ec-05-2/raw-outcome.json": "228c46d15b332d278538fa77dd0d3bd6dff9dfa885c5bc99ece265d2bc6a9169",
+    "generation/runs/candidate-configuration/ec-05-2/raw-response.txt": "5c60060d3838d5dc621acdbfb098f0b47dd881f2c546eafef3b3d9933af8a4f1",
+    "generation/runs/candidate-configuration/ec-05-2/run-metadata.json": "b58f0bf5ae8261c32d73078354fccc4079753c1e7b2ff8742feda634028de948",
+    "generation/runs/candidate-configuration/ec-05-3/raw-outcome.json": "ad1f8db8b56a77037b62245e2a1ebfc7279eb0e6112b8e0900ebe2a82fd0e32e",
+    "generation/runs/candidate-configuration/ec-05-3/raw-response.txt": "6a6f3008c0e6131cc2014d5f53af7aee2820a0885c7176db8074099e7b66ba60",
+    "generation/runs/candidate-configuration/ec-05-3/run-metadata.json": "04fbf07e315a5a462c0857e2bb38676de87835fa6fffada0fe6471b4ba4ee640",
+    "generation/runs/experiment-baseline/ec-05-1/raw-outcome.json": "1c81626744da18670eff23f735252dc1a6baeb84b3bd09108d739b8428884305",
+    "generation/runs/experiment-baseline/ec-05-1/raw-response.txt": "b4962fc98f5aa2a38420b194c39fe09805bd7e0ece2b3796071ff9b5a3b02355",
+    "generation/runs/experiment-baseline/ec-05-1/run-metadata.json": "a8a405ff8d1310b0cc12b524391aa71d2ed9cd5373cd7efe1f1b2b0607a9aa61",
+    "generation/runs/experiment-baseline/ec-05-2/raw-outcome.json": "397e054701e14f61c5109e87b36da89604d22dfadd41a138c2c44df5f611f9e4",
+    "generation/runs/experiment-baseline/ec-05-2/raw-response.txt": "d446da12aaf5920ca20bdbd4af260743815be5a885cf962a5a80cd055cf2d807",
+    "generation/runs/experiment-baseline/ec-05-2/run-metadata.json": "78322eb90ea6dfae888eda7a3a165c5cf1fcce8bcd3d180fa82d2eaaa8c000e7",
+    "generation/runs/experiment-baseline/ec-05-3/raw-outcome.json": "4045459981dab22419887866c49877b9e93b9c0cf774e7176631aaec0963a58e",
+    "generation/runs/experiment-baseline/ec-05-3/raw-response.txt": "2493495c34b340d8fc94d94cea54d1c2f04fc5528f940ab920bcd38a4c915ee2",
+    "generation/runs/experiment-baseline/ec-05-3/run-metadata.json": "76548db99ba7ea38c40f9fb52229674f9738ccae18a162e89ad6c26f251d77e2"
+  },
+  "generation_evidence_unchanged": true,
+  "evaluation_verification": {
+    "judged outputs": 6,
+    "candidate concept definition passes": 2,
+    "refusal passes": 4,
+    "bounded configuration decisions": 1
+  }
+}

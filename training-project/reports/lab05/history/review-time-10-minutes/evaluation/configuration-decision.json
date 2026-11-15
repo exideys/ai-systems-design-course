@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0",
+  "shared experiment protocol id": "SEP-05-1",
+  "bounded configuration decision": "do not adopt the candidate configuration",
+  "decision rationale": "Both roles passed the rubric for 3 of 3 outputs (1.00), with no unsupported definitions or definitions on EC-05-3. Both satisfy the 330-second latency limit. However, the user supplied an approximate review-time range of 5-15 minutes per output; the documented midpoint estimate of 10 minutes exceeds the 5-minute maximum. Condition 4 fails for both roles, so candidate adoption and baseline retention are both blocked. Token usage remains not evaluated. This decision does not assert retention of a permitted baseline, change retrieval configuration, authorize collection writes, or establish held-out performance.",
+  "rubric pass rates": {
+    "experiment baseline": 1.0,
+    "candidate configuration": 1.0
+  },
+  "candidate configuration role outcome": "adoption blocked",
+  "experiment baseline role outcome": "retention blocked",
+  "scope": "The bounded configuration decision rests on the declared development evaluation cases and supplies no held-out evidence.",
+  "authority boundary": "The bounded configuration decision does not select a retrieval configuration and authorizes no write to the canonical knowledge collection.",
+  "recorded by": "Codex for exideys (AI-assisted; user-confirmed judgments; user-based time estimates)"
+}

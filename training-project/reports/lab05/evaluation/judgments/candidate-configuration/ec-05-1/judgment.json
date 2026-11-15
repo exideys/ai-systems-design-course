@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0",
+  "shared experiment protocol id": "SEP-05-1",
+  "configuration role": "candidate configuration",
+  "evaluation case id": "EC-05-1",
+  "outcome type": "candidate concept definition",
+  "rubric check": "Candidate concept definition check",
+  "human evaluator judgment": "pass",
+  "judgment rationale": "claim-1 reproduces sentence 1 of F-A. claim-2 restates sentence 2, replacing link with provenance link without adding a source fact. Both citations correctly identify the claim and selected F-A. Review-time input is 4 minutes 35 seconds, specified by the user for this role after seeing earlier evaluation results; it is an unmeasured parameter.",
+  "review minutes": 4.583333333333333,
+  "outcome sha256": "8b8e9bcd08414ed1fbcfeb0798ac619e563a1e0133ae8c675d6f2b65d2ea1529",
+  "recorded by": "exideys (AI-assisted; user-specified unmeasured review-time parameters)",
+  "authority boundary": "The recorded judgment is not an authorization to change the canonical knowledge collection."
+}
